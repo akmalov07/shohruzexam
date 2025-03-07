@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.header-parent {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  justify-content: space-between;
+}
+.header-logo {
+  width: 100%;
+  max-width: 111px;
+}
+a {
+  font-family: Karla;
+  font-weight: 700;
+  font-size: 13px;
+  color: #837d88;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-left: 650px;
+}
+.header-button button {
+  font-family: Karla;
+  font-weight: 700;
+  font-size: 13px;
+  width: 146px;
+  height: 40px;
+  border: 1.5px solid #2c2830;
+  background-color: white;
+}
+.main-logo {
+  font-family: DM Serif Display;
+  font-weight: 400;
+  font-size: 72px;
+  width: 540px;
+  height: 140px;
+  color: #ffffff;
+}
+.main-text {
+  width: 540px;
+  height: 84px;
+  font-family: Karla;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  margin-top: 64px;
+}
+.main-img {
+  width: 100%;
+  width: 560px;
+  position: absolute;
+  top: 105px;
+  left: 735px;
+}
+#bir {
+  background-color: #2d2641;
+}
+.main-parent {
+  display: flex;
+  align-items: center;
+  height: 600px;
+  position: relative;
+}
+.main-firsttext {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-button button {
+  font-family: Karla;
+  font-weight: 700;
+  font-size: 13px;
+  width: 146px;
+  height: 40px;
+  border: 1.5px solid white;
+  background-color: #2d2641;
+  color: white;
+  margin-top: 24px;
+}
+.t-b {
+  width: 540px;
+  height: 304px;
+}
+.main-logo2 {
+  font-family: DM Serif Display;
+  font-weight: 400;
+  font-size: 72px;
+  width: 717px;
+  height: 64px;
+}
+#ikki {
+  margin-top: 305px;
+}
+.main-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+  height: 250px;
+  margin-left: 100px;
+}
+.main-box1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+  height: 250px;
+}
+.main-box-img {
+  width: 100%;
+  width: 86px;
+}
+.main-box-logo {
+  font-family: DM Serif Display;
+  font-weight: 400;
+  font-size: 28px;
+  width: 350px;
+  height: 38px;
+  color: #2c2830;
+  margin-top: 32px;
+}
+.main-box-text {
+  font-family: Karla;
+  font-weight: 400;
+  font-size: 16px;
+  width: 350px;
+  height: 78px;
+  color: #837d88;
+  margin-top: 16px;
+}
+.main-parent-uch {
+  padding: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 250px;
+  position: relative;
+  background-color: #2d2641;
+  margin-top: 158px;
+}
+.main-button-uch button {
+  font-family: Karla;
+  font-weight: 700;
+  font-size: 13px;
+  width: 160px;
+  height: 40px;
+  border: 1.5px solid white;
+  background-color: #2d2641;
+  color: white;
+}
+.main-logo-uch {
+  font-family: DM Serif Display;
+  font-weight: 400;
+  font-size: 56px;
+  color: white;
+  width: 475px;
+  height: 112px;
+  margin-left: 81px;
+}
+.footer-parent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.footer-nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.footer nav a {
+  width: 100%;
+  width: 24px;
+}
+.footer-logo1 {
+  font-family: Karla;
+  font-weight: 700;
+  font-size: 13px;
+  color: #837d88;
+}
+.footer-logo3 {
+  font-family: Karla;
+  font-weight: 700;
+  font-size: 13px;
+  color: #2d2641;
+  margin-top: 16px;
+}
+.footer-logo2 {
+  font-family: Karla;
+  font-weight: 700;
+  font-size: 13px;
+  color: #2d2641;
+  margin-top: 36px;
+}
+.footer-box {
+  width: 200px;
+  height: 159px;
+}
+footer {
+  margin-top: 150px;
+}
+.footer-box-part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo2 {
+  width: 100%;
+  width: 32px;
+  display: none;
+}
+.main-img2 {
+  display: none;
+}
+.main-box-part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-part1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+  .main-parent-uch {
+    flex-wrap: wrap;
+    gap: 100 px;
+  }
+  .main-box-part {
+    flex-wrap: wrap;
+    margin-top: 130px;
+  }
+  .header-nav {
+    display: none;
+  }
+  .header-button button {
+    display: none;
+  }
+  .header-logo2 {
+    display: block;
+    margin-left: 183px;
+  }
+  .main-img {
+    display: none;
+    position: none;
+  }
+  .main-img2 {
+    display: block;
+  }
+  .t-b {
+    width: 327px;
+    height: 314px;
+    background-color: #2d2641;
+    margin-left: 24px;
+  }
+  #bir {
+    background-color: none;
+  }
+  .main-logo {
+    font-family: DM Serif Display;
+    font-weight: 400;
+
+    width: 327px;
+    height: 96px;
+    color: #ffffff;
+
+    font-size: 48px;
+  }
+  .main-text {
+    width: 327px;
+    height: 130px;
+    font-family: Karla;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    margin-top: 48px;
+  }
+  .main-button button {
+    margin-left: 91px;
+  }
+  .main-logo2 {
+    width: 327px;
+    height: 89px;
+    font-size: 48px;
+    margin-left: 24px;
+  }
+  .main-box-logo {
+    width: 327px;
+    height: 38px;
+    font-size: 28px;
+    margin-left: 75px;
+  }
+  .main-box-text {
+    width: 327px;
+    height: 78px;
+  }
+  .main-box1 {
+    width: 327px;
+    height: 250px;
+    flex-wrap: column;
+    margin-left: 24px;
+  }
+  .main-box {
+    width: 327px;
+    height: 250px;
+    flex-wrap: column;
+    margin-left: 24px;
+    margin-top: 20px;
+  }
+  .main-box-img {
+    margin-left: 121px;
+  }
+  .main-part {
+    flex-wrap: column;
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+  .main-parent-uch {
+    width: 327px;
+    height: 344px;
+    flex-wrap: wrap;
+  }
+  .main-logo-uch {
+    width: 279px;
+    height: 120px;
+    font-size: 40px;
+  }
+  .footer-part1 {
+    flex-wrap: wrap;
+  }
+
+  .tor .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-parent {
+    flex-direction: column;
+  }
+
+  .footer-box-part {
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+  }
+}
